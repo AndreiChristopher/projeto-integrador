@@ -2,10 +2,8 @@
 
 <html lang="pt-br">
 	<head>
-		<title>Página Inicial</title>
+		<title>Contato</title>
 		<meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <link rel="stylesheet" href="css/estilo.css">
 	</head>
 	<body>
@@ -30,11 +28,16 @@
         <img id="estatua1" src="imagens/buda.png" alt="Buda vetorizado">
         <img id="estatua2" src="imagens/shaka.png" alt="Shaka de Virgem vetorizado">
         <article>
-            <h1>Dedicado ao leitor</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non suscipit risus, ut luctus lacus. Nunc ac justo sed nunc dictum congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque mollis sapien nec mattis iaculis. Maecenas faucibus quis sapien in lacinia. Cras imperdiet tempus mi. Praesent eu dictum tellus, eget posuere risus. Aenean quis tincidunt velit. Nullam felis augue, consequat tempus mattis eu, lacinia eget nunc. In fermentum enim ut tellus ultricies tincidunt.</p>
-            <p>Nulla non consequat quam. Quisque molestie nulla a eros condimentum semper. Phasellus eu rhoncus urna. Nunc enim nibh, suscipit porta magna vitae, fringilla convallis eros. Curabitur id erat felis. Nulla commodo, nisi sit amet aliquam lacinia, nibh erat porta leo, eget consectetur lorem est in nibh. Phasellus aliquam rhoncus ipsum, sed sollicitudin velit porttitor eget.</p>
-            <p>Proin velit lorem, ultrices eget sollicitudin vel, molestie nec sem. Suspendisse pretium mauris vel ligula efficitur lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum eget nunc eu sodales. Nam viverra sollicitudin est vitae condimentum. Integer iaculis placerat ex lobortis vestibulum. Donec porta tristique nisl eget ornare.
-            </p>
+            <form id="contato" method="">
+                <fieldset>
+                <legend><h1>Fale conosco</h1></legend>
+                <label id="label">Seu nome:</label><p><input></p>
+                <label id="label">E-mail:</label><p><input type=email></p>
+                <label id="label">Mensagem:</label><p id="mensagem"><textarea></textarea></p>
+                <p><label><input type=checkbox>Deseja receber notificações através do email?</label></p>
+                <p ><label><input type="submit"></label></p>
+                </fieldset>       
+            </form>       
             <img id="flordelotus" src="imagens/flordelotus.png" alt="Flor de Lótus">
         </article>
         <footer>

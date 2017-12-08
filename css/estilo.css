@@ -1,0 +1,266 @@
+@charset "utf-8";
+
+html {
+    width: auto;
+    height: auto;
+    padding: 0.0px;
+    margin: auto;
+    background-color: #e78200;
+}
+body {
+    width: 1024.0px;
+    height: 100.0%;
+    padding: 0.0px;
+    margin: 0.0px auto;
+    background-color: #f2af58;
+}
+header {
+    width: 100.0%;
+    height: 133.0px;
+    padding: 0.0px;
+    margin: 0.0px;
+    background-color: #ffffff;
+}
+footer {
+    width: 100.0%;
+    height: 133.0px;
+    padding: 0.0px;
+    margin: 0.0px;
+    background-color: #e4c79f;
+}
+article {
+    width: 603.0px;
+    padding: 0.0px;
+    margin: 10.0px auto;
+    position: relative;
+    left: 0.0px;
+    right: 0.0px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+h1 {
+    padding: 0.0px;
+    padding-top: 10.0px;
+    margin: 0.0px;
+    text-align: center;
+    font-family: "arial", "helvetica", sans-serif;
+}
+h2 {
+    padding: 0.0px;
+    padding-top: 10.0px;
+    margin: 0.0px;
+    text-align: center;
+    font-family: "arial", "helvetica", sans-serif;
+}
+p {
+    padding: 10.0px;
+    margin: 0.0px;
+    text-align: left;
+    font-family: "times new roman", "georgia", serif;
+}
+nav {
+    display: inline;
+}
+.logo img {
+    margin: 10.0px 0.0px;
+    float: left;
+}
+#busca {
+    padding: 0.0px;
+    margin: 0.0px;
+    position: relative;
+    top: 52.0px;
+    float: left;
+}
+#busca p {
+    padding: 0.0px;
+    margin: 0.0px;
+}
+#busca label {
+    padding: 0.0px;
+    margin: 0.0px;
+}
+#busca label input {
+    padding: 5.0px;
+    border: 2.0px #808080 solid;
+    border-radius: 5.0px;
+    margin: 0.0px;
+    font-size: 100%;
+}
+
+ul {
+    width: auto;
+    height: 32.0px;
+    padding: 0.0px;
+    margin: 0.0px;
+    position: relative;
+    top: 52.0px;
+    right: 0.75%;
+    float: right;
+}
+ul li {
+    width: 100%;
+    display: inline;
+    padding: 0.0px;
+    margin: 0.0px;
+    position: relative;
+    top: 7.0px;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "arial", "helvetica", sans-serif;
+    font-size: 0.9em;
+    padding: 6.0px;
+    margin: 2.5px;
+}
+a:hover {
+color: #e78200;
+background-color: #e4c79f;
+transition-duration: 0.25s;
+transition-timing-function: ease-in;
+}
+
+#flordelotus {
+    padding: 0.0px;
+    margin: 0.0px auto;
+    position: relative;
+    left: 201.5px;
+}
+
+#estatua1 {
+    float: left;
+    padding: 0.0px;
+    position: relative;
+    left: 25.0px;
+    margin: 8.0px auto;
+    margin-right: 34.0px;
+}
+#estatua2 {
+    float: right;
+    padding: 0.0px;
+    margin: 8.0px;
+    margin-left: 0.0px;
+}
+
+.justify {
+    text-align: justify;
+}
+#ikki {
+    margin: 10.0px;
+    float: right;
+}
+#shakavsshijima {
+    margin: 10.0px;
+    float: left;
+}
+#shaka {
+    margin: 10.0px;
+    float: right;
+}
+
+#asideficha {
+    width: 50%;
+    height: auto;
+    padding: 0.0px;
+    margin: auto;
+    background-color: #ffffff;
+    float: right;
+}
+#asideficha img {
+    padding: 0.0px;
+    margin: 10.0px;
+    float: left;
+}
+#asideficha table {
+    width: auto;
+    padding: 0.0px;
+    margin: 10.0px;
+    margin-top: 0.0px;
+    border-collapse: collapse;
+    font-family: "arial", "helvetica", sans-serif;
+}
+#asideficha table thead {
+    background-color: #f2af58;
+}
+.claro {
+    background-color: #e4c79f;
+}
+.escuro {
+    background-color: #f2af58;
+}
+#asideficha table thead tr th {
+    padding: 0.0px;
+    margin: 0.0px;
+}
+#asideficha table, th, td {
+    border: 2.0px #e78200 solid;
+}
+
+#galeria1 {
+    padding: 0.0;
+    margin: 10.0px;
+    margin-bottom: 0.0px;
+    float: left;
+}
+#galeria2 {
+    padding: 0.0;
+    margin: 10.0px;
+    margin-left: 0.0px;
+    margin-bottom: 0.0px;
+    float: left;
+}
+#galeria3 {
+    padding: 0.0;
+    margin: 10.0px;
+    margin-left: 0.0px;
+    margin-bottom: 31.0px;
+    float: left;
+}
+#galeria4 {
+    padding: 0.0;
+    margin: 10.0px;
+    margin-right: -10.0px;
+    margin-bottom: 0.0px;
+    float: left;
+}
+#galeria5 {
+    padding: 0.0px;
+    margin: 10.0px 0.0px;
+    margin-right: -10.0px;
+    margin-bottom: 38.0px;
+    float: left;
+}
+#galeria6 {
+    padding: 0.0px;
+    margin: 10.0px;
+    margin-left: 0.0px;
+    margin-bottom: 7.0px;
+    float: left;
+}
+#galeria7 {
+    padding: 0.0px;
+    margin: 10.0px;
+    margin-right: 0.0px;
+    float: left;
+}
+#galeria8 {
+    padding: 0.0px;
+    margin: 10.0px;
+    float: left;
+}
+
+fieldset {
+    padding: 10.0px;
+    border-style: none;
+}
+#label {
+    padding-left: 10.0px;
+}
+#contato p {
+    padding-top: 0.0px;
+}
+#mensagem textarea {
+    width: 250.0px;
+    height: 100.0px;
+}
